@@ -1,5 +1,6 @@
 import React from 'react'
 import './Feed.css'
+import Post from './Post'
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import ImageIcon from '@mui/icons-material/Image';
 import EventIcon from '@mui/icons-material/Event';
@@ -25,6 +26,9 @@ function Feed() {
         </div>
 
       </div>
+      <Post name="Puneet bedi" desc='Tis is '
+        message='hg' />
+        {/* Widgets */}
     </div>
   )
 }
