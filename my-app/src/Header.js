@@ -1,8 +1,12 @@
 import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import './Header.css';
+import WorkIcon from '@mui/icons-material/Work';
 import Headeroption from './Headeroption';
+import MessageIcon from '@mui/icons-material/Message';
 import HomeIcon from '@mui/icons-material/Home';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 function Header() {
   return (
     <div className='header'>
@@ -19,8 +23,12 @@ function Header() {
 
       </div>
       <div className='header_right'>
-        <Headeroption Icon = {HomeIcon} />
-        <Headeroption title="My Network" />
+        <Headeroption Icon = {HomeIcon} title="Home" />
+        <Headeroption Icon={AccountBoxIcon } title="My Network" />
+        <Headeroption Icon={WorkIcon} title="Jobs" />
+        <Headeroption Icon={MessageIcon} title="Message" />
+        <Headeroption Icon={NotificationsIcon} title="Notifications" />
+        <Headeroption avatar="https://filmfare.wwmindia.com/content/2022/jun/brahmastra11654934263.jpg" title="Me" />
       </div>
     </div>
   )

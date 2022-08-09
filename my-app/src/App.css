@@ -1,0 +1,9 @@
+.app_body {
+  display: flex;
+}
+.app{
+  background-color: lavender;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
