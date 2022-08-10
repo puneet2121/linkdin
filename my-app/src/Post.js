@@ -6,18 +6,19 @@ import Inputoption from './Inputoption'
 import './Post.css'
 import SendIcon from '@mui/icons-material/Send';
 import IosShareIcon from '@mui/icons-material/IosShare';
-function Post({ name, desc, message, photoUrl }) {
+
+function Post({ name, description, message, photoUrl }) {
   return (
     <div className='post'>
       <div className='post_header'>
         <Avatar />
         <div className='post_info'>
-          <h2>Puneet Bedi</h2>
-          <p>desciption</p>
+          <h2>{name}</h2>
+          <p>{description}</p>
         </div>
       </div>
       <div className='post_body'>
-        <p>Message goes here</p>
+        <p>{message}</p>
       </div>
       <div className='post_bottom'>
         <Inputoption Icon={ThumbUpIcon} title="like"/>
