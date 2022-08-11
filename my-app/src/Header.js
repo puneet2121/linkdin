@@ -38,7 +38,7 @@ function Header() {
         <Headeroption Icon={WorkIcon} title="Jobs" />
         <Headeroption Icon={MessageIcon} title="Message" />
         <Headeroption Icon={NotificationsIcon} title="Notifications" />
-        <Headeroption avatar={user && user.email[0].toUpperCase()}
+        <Headeroption avatar={true}
         title="Me"
         onClick={logoutApp} />
       </div>

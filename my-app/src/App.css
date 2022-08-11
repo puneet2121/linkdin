@@ -1,5 +1,9 @@
 .app_body {
   display: flex;
+  margin-top: 35px;
+  margin-right: 20px;
+  margin-left: 20px;
+  max-width: 1200px;
 }
 .app{
   background-color: lavender;
