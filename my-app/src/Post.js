@@ -9,7 +9,7 @@ import IosShareIcon from '@mui/icons-material/IosShare';
 import { forwardRef } from 'react';
 const Post = forwardRef(({ name, description, message, photoUrl },ref) => {
   return (
-    <div ref={ref}className='post'>
+    <div ref={ref} className='post'>
       <div className='post_header'>
         <Avatar src={photoUrl}>{name[0]}</Avatar>
         <div className='post_info'>
